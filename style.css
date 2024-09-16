@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header,
+nav,
+main,
+article,
+aside,
+section,
+footer {
+    display: block;
+}
+
+header {
+    background-color: #404040;
+}
+
+header a {
+    display: block;
+    padding: 2% 5%;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+nav {
+    padding: 1% 5%;
+    background-color: tomato;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+
+main {
+    width: 90%;
+    margin: 1vh auto;
+    display: flex;
+    height: 70vh;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 74%;
+}
+
+.post {
+    padding: 1%;
+    border: 1px solid grey;
+}
+
+.post h2 {
+    background-color: #404040;
+    color: white;
+    padding: 1%;
+}
+
+.post p {
+    text-align: justify;
+}
+
+aside {
+    width: 25%;
+    background-color: wheat;
+}
+
+footer {
+    background-color: #404040;
+}
+
+footer h4 {
+    padding: 1.50% 5%;
+    color: white;
+    text-align: center;
+}
